@@ -1,0 +1,588 @@
+@media (max-width:1186px) {
+   #container {min-width: 100%;width: 100%;}
+   /*header
+   ============================================================================*/
+   .box_menu a {margin-right: 8px;}
+   #middle {}
+   /*content_page
+   ---------------------------------------------*/
+   .content {width: 960px;}
+   /*page home
+   ============================================================================*/
+   .wrap_circle_top {padding-left: 20px;padding-right: 20px;}
+   .wrap_circle_top.active {margin-left: auto;margin-right: auto;/*width: 960px;*/}
+   .wrap_circle_top .thumb_circ {height: 110px !important;width: 110px !important;}
+   .wrap_circle_top .thumb_circ .images {height: 100px !important;width: 100px !important;}
+   .wrap_circle_top .thumb_circ.data1 {left: 70px;}
+   .wrap_circle_top .thumb_circ.data2 {left: 160px;}
+   .wrap_circle_top .thumb_circ.data3 {left: 415px;}
+   .wrap_circle_top .thumb_circ.data4 {right: 160px ;}
+   .wrap_circle_top .thumb_circ.data5 {right: 70px;}
+   .wrap_circle_top.active .thumb_circ.data1 h6 {right: 15px;top: 140px;}
+   .wrap_circle_top.active .thumb_circ.data5 h6 {left: 19px;top: 140px;}
+
+   .wrap_circle_bottom .thumb_circ.data_1 {left: 70px;}
+   .wrap_circle_bottom .thumb_circ.data_2 {left: 170px;}
+   .wrap_circle_bottom .thumb_circ.data_4 {right: 170px ;}
+   .wrap_circle_bottom .thumb_circ.data_5 {right: 70px;}
+   .wrap_circle_bottom .thumb_circ.data_1 h6 {left: 15px;top: 140px;}
+   .wrap_circle_bottom .thumb_circ.data_5 h6 {right: 35px;top: 140px;}
+
+   .bg_img1 p.big {width: auto;}
+   /*page about adhi
+   ============================================================================*/
+   #frame_award .list_award li {box-sizing: border-box;width: 25%;}
+   .bg_grey.style2 .sec_left, .bg_grey.style2 .sec_right {box-sizing: border-box;width: 48%;}
+   .bg_grey.style2 .sec_left img {max-width: 100%;}
+   .bg_grey.news .sec_left {width: 280px;}
+   .bg_grey.news .sec_right {}
+   .bg_grey.news .news_highlight {height: 270px;width: 270px;}
+   /*page home--human capital
+   ---------------------------------------*/
+   .bg_white.human .sec_right .vacany_date {left: 229px;top: 160px;}
+   .human {margin-left: auto;margin-right: auto;}
+   .bg_white.human .sec_right {background-size: 86%;height: 390px;width: 680px;}
+   .bg_white.human .imgcchc1 {
+      height: 150px;
+      left: 20px;
+      width: 150px;
+   }
+   .bg_white.human .imgcchc2 {
+      height: 235px;
+      right: 345px;
+      top: 40px;
+      width: 235px;
+   }
+   .bg_white.human .imgcchc3 {
+      bottom: 0px;
+      right: 200px;
+   }
+   .bg_white.human .imgcchc4 {
+      bottom: 90px;
+      height: 297px;
+      right: 0px;
+      width: 297px;
+   }
+   .masking_large {width: 280px;}
+   .masking_large .img {height: 250px;width: 250px;}
+   .block_large_mask #text_quote {width: 530px;}
+
+   .vision .text_vm, .mission .text_vm {width: 720px;}
+
+   .management_sub ul li {width: 200px;}
+   .management_sub .masking_large {width: auto;}
+   .management_sub .masking_large .img {width: 190px;margin: auto;height: 190px;}
+   .management_sub .board_manage_descrip {width: auto;}
+
+   #frame_companygroup li {width: 360px;}
+
+   #project_business .bx-wrapper .bx-viewport,#frame_table {width: 98% !important;}
+
+   .content_img .img,#board_commissioners .img,#board_director .img {width: 410px;}
+
+   .head_ftable {width: 100%;}
+   #frame_report .report_large {width: 500px;}
+   #frame_report .report_large .text_report {width: 190px;}
+   /*page news
+   ============================================================================*/
+   #head_news .descrip_large {width: auto;}
+   #frame_list_news ul li,#head_news .left,#head_news .right,#list_event ul li,
+   #event_gallery .event_img,#event_gallery .event_description,#frame_list_project li {box-sizing: border-box;}
+   #head_news .left {margin-right: 5%;width: 65%;}
+   #head_news .right {width: 30%;}
+
+   #frame_list_news ul li {min-height: 180px;width: 28%;}
+   #list_news .description {width: 126px;}
+   #news_detail .right {width: 500px;}
+   #list_event ul li {width: 46%;}
+   #event_gallery .event_img {margin-right: 10px;width: 48%;}
+   #event_gallery .event_description {width: 48%;}
+   /*page project
+   ============================================================================*/
+   #frame_list_project li {width: 22.5%;}
+   .list_project h3 {height: 84px;overflow: hidden;}
+   /*page human capital
+   ============================================================================*/
+   #career_thumb ul li,.small_career .image_car,.small_career .descrip_career,
+   .large_career .image_car,.large_career .descrip_career {box-sizing: border-box;}
+   #career_thumb ul li {width: 46%;}
+   .small_career .image_car {width: 46%;}
+   .small_career .descrip_career {width: 47%;}
+   .large_career .image_car {width: 36%;}
+   .large_career .descrip_career {width: 60%;}
+   /*page contact
+   ============================================================================*/
+   .frame_map {width: auto;}
+   /*footer
+   ============================================================================*/
+   #footer {}
+   .menu_footer {margin-left: auto;margin-right: auto;width: 960px;}
+}
+/*end 1024*/
+
+@media (max-width: 1018px) {
+   #middle {}
+   .content {margin-left: auto;margin-right: auto;width: 700px;}
+   .box_menu a {margin-right: 0px;}
+   .sub_head,.box_red,.sub_head .content {height: 60px;}
+   .sub_head .sub_nav ul {padding-top: 9px;text-align: center;}
+   .sub_head .sub_nav ul li {margin-bottom: 10px;}
+   .sub_head .sub_nav ul li a {line-height: 16px;border-bottom: none;}
+   .sub_head .sub_nav ul li a:hover {border-bottom: none;}
+   .sub_head .sub_nav ul li a:hover, .sub_head .sub_nav ul li a.active {color: #909090;}
+   #header .content {width: 100%;}
+   #header .nav_search {margin-right: 20px;}
+   #header .nav_search .box_nav.otl {display: none;}
+   #header .box_menu a:hover {border-bottom: 2px solid transparent;}
+   #header .box_menu a.active {background-color: rgba(0,0,0,.8);color: #FFF;}
+   .navbar-fixed-top,.navbar-fixed-bottom { position: fixed;}
+   .navbar-fixed-top {background-color: #fff;margin-bottom: 20px;  }
+   .navbar-fixed-bottom {margin-top: 20px;}
+   .navbar-fixed-top .navbar-inner,
+   .navbar-fixed-bottom .navbar-inner {padding: 0px;}
+   .navbar .container { width: auto;padding: 0;}
+   .navbar .brand {padding-right: 10px;padding-left: 10px; margin: 0 0 0 -5px;}
+   .nav-collapse {clear: both;}
+   .navbar .nav > .active > a,
+   .navbar .nav > .active > a:hover,
+   .navbar .nav > .active > a:focus {background-color: #314896;border-bottom: none;}
+   .nav-collapse .nav {float: none;margin: 0 0 10px;}
+   .nav-collapse .nav > li {float: none;}
+   .nav-collapse .nav > li > a {margin-bottom: 2px;}
+   .nav-collapse .nav > .divider-vertical {display: none;}
+   .nav-collapse .nav .nav-header {color: #777777;text-shadow: none;}
+   .bg_white.navbar .nav > li > a {color: #fefefe;}
+   .nav-collapse .nav > li > a,
+   .nav-collapse .dropdown-menu a {padding: 9px 15px;color: #fff;}
+   .nav-collapse .btn {padding: 4px 10px 4px;font-weight: normal;-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;}
+   .nav-collapse .dropdown-menu li + li a {margin-bottom: 2px; }
+   .nav-collapse .nav > li > a:hover,
+   .nav-collapse .nav > li > a:focus,
+   .nav-collapse .dropdown-menu a:hover,
+   .nav-collapse .dropdown-menu a:focus {background-color: rgba(0,0,0,.8);color: #FFF; }
+   .navbar-inverse .nav-collapse .nav > li > a,
+   .navbar-inverse .nav-collapse .dropdown-menu a {color: #999999; }
+   .navbar-inverse .nav-collapse .nav > li > a:hover,
+   .navbar-inverse .nav-collapse .nav > li > a:focus,
+   .navbar-inverse .nav-collapse .dropdown-menu a:hover,
+   .navbar-inverse .nav-collapse .dropdown-menu a:focus {background-color: #111111;}
+   .nav-collapse.in .btn-group { padding: 0; margin-top: 5px;}
+   .nav-collapse .dropdown-menu {position: static;top: auto;left: auto;display: none;float: none;max-width: none;padding: 0;margin: 0 15px;background-color: transparent;border: none;-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;-webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none;}
+   .nav-collapse .open > .dropdown-menu {display: block;}
+   .nav-collapse .dropdown-menu:before,
+   .nav-collapse .dropdown-menu:after {display: none;}
+   .nav-collapse .dropdown-menu .divider {display: none;}
+   .nav-collapse .nav > li > .dropdown-menu:before,
+   .nav-collapse .nav > li > .dropdown-menu:after { display: none;}
+   .nav-collapse .navbar-form,
+   .nav-collapse .navbar-search {float: none; padding: 10px 15px;margin: 10px 0;border-top: 1px solid #f2f2f2;border-bottom: 1px solid #f2f2f2;
+      -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+      -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+   }
+   .navbar-inverse .nav-collapse .navbar-form,
+   .navbar-inverse .nav-collapse .navbar-search {border-top-color: #111111;border-bottom-color: #111111;}
+   .navbar .nav-collapse .nav.pull-right {float: none;margin-left: 0;}
+   .nav-collapse,.nav-collapse.collapse {background-color: rgba(216,0,0,.8);float: none;height: 0;overflow: hidden;}
+   .navbar .btn-navbar {display: block;margin-right: 10px;}
+   .navbar-static .navbar-inner {padding-right: 10px;padding-left: 10px;}
+
+   #container {min-width: 100%;width: 100%;}
+   /*page home
+   ============================================================================*/
+   #middle h1 {font-size: 22px;}
+   .wrap_circle_top {height: 550px;}
+   .wrap_circle_top.active {background-size: 1450px;/*width: 768px;*/}
+   .wrap_circle_top .thumb_circ {}
+   .wrap_circle_top .thumb_circ .images {height: 100px !important;width: 100px !important;}
+   .wrap_circle_top .content {/*width: auto;*/}
+   p.big {width: auto;}
+   .wrap_circle_top .thumb_circ.data1 {left: 20px;top: 280px !important;}
+   .wrap_circle_top .thumb_circ.data2 {left: 90px;top: 105px !important;}
+   .wrap_circle_top .thumb_circ.data3 {left: 290px;top: 10px !important;}
+   .wrap_circle_top .thumb_circ.data4 {right: 90px;top: 105px !important;}
+   .wrap_circle_top .thumb_circ.data5 {right: 20px;top: 280px !important;}
+   .wrap_circle_top.active .thumb_circ.data1 h6 {top: -20px;}
+   .wrap_circle_top.active .thumb_circ.data5 h6 {top: -20px;}
+   .wrap_circle_top .content_center .logo {display: none;}
+   .wrap_circle_top .content_center {top: 220px;width: 240px;}
+   
+   #middle .bg_grey.style2 {height: auto;padding-bottom: 20px;padding-top: 0;top: 0px;}
+   #middle .bg_grey.style2 .sec_left, #middle .bg_grey.style2 .sec_right {float: none;width: 100%;}
+   #middle .bg_grey.style2 .sec_left img {height: auto;width: 95%;}
+   
+   .wrap_circle_bottom {background-size: 1450px;height: 630px;margin: 0;top: 0px;width: auto;}
+   .wrap_circle_bottom .content {margin-left: auto;margin-right: auto;width: 768px;}
+   .wrap_circle_bottom .content_center {height: 250px;top: 130px;width: 280px;}
+   .wrap_circle_bottom .content_center h1 {margin-bottom: 10px;}
+   .wrap_circle_bottom .content_center h3 {margin-bottom: 20px;}
+   .wrap_circle_bottom .content_center p {font-size: 14px;line-height: 24px;}
+   .wrap_circle_bottom .thumb_circ,.wrap_circle_bottom .thumb_circ .images {height: 100px;width: 100px;}
+   .wrap_circle_bottom .thumb_circ .images {background-size: 200% !important;}
+   .wrap_circle_bottom .thumb_circ .images img {width: 30%;}
+   .wrap_circle_bottom .thumb_circ.data_1 {left: 70px;top: 180px;}
+   .wrap_circle_bottom .thumb_circ.data_2 {left: 150px;top: 350px;}
+   .wrap_circle_bottom .thumb_circ.data_3 {top: 430px;}
+   .wrap_circle_bottom .thumb_circ.data_4 {right: 150px;top: 350px;}
+   .wrap_circle_bottom .thumb_circ.data_5 {right: 70px;top: 180px;}
+   .wrap_circle_bottom .thumb_circ.data_1 h6 {left: 0px;top: 110px;}
+   .wrap_circle_bottom .thumb_circ.data_2 h6 {left: 10px;top: 110px;}
+   .wrap_circle_bottom .thumb_circ.data_3 h6 {left: -20px;top: 110px;}
+   .wrap_circle_bottom .thumb_circ.data_4 h6 {right: -10px;top: 110px;}
+   .wrap_circle_bottom .thumb_circ.data_5 h6 {right: 20px;top: 110px;}
+
+   .masking_large {width: 280px;}
+   .masking_large .img {height: 250px;width: 250px;}
+   .block_large_mask #text_quote {margin-left: 20px;margin-top: 10px;width: 400px;}
+   /*page home--corporate social responsibility
+   ---------------------------------------*/
+   #middle .bg_img1 {height: auto;}
+   /*page home--news
+   ---------------------------------------*/
+   .bg_grey.news .sec_left {float: none;margin: auto;width: 365px;}
+   .bg_grey.news .news_highlight {height: 365px;width: 365px;}
+   .bg_grey.news .sec_right {float: none;width: auto;}
+   .bg_grey.news .sec_right .box_news {width: 290px;}
+   .bg_grey.news .sec_right .box_news .desc {width: 160px;}
+   /*page home--human capital
+   ---------------------------------------*/
+   #middle .human {width: auto;}
+   #middle .bg_white.human .sec_left,.bg_white.human .sec_right {float: none;width: 100%;}
+   .bg_white.human .sec_right {height: 400px;}
+   #middle .human {width: auto;}
+   .bg_white.human .sec_right .vacany_date {left: 239px;top: 160px;}
+   .bg_white.human .sec_right .vacany_date h6, .bg_white.human .sec_right .vacany_date h5 {font-size: 15px;}
+   /*general
+   ============================================================================*/
+   #content_page .content {}
+   /*page about adhi
+   ============================================================================*/
+   .vision, .mission {padding-left: 0;padding-right: 0;}
+   .vision .text_vm, .mission .text_vm {width: 460px;}
+   .management_sub ul li {width: 280px;}
+   .management_sub ul.min5 li {margin-left: 20px;margin-right: 20px;}
+   .ontre .management_sub ul li {margin-left: 15px;margin-right: 15px;width: 200px;}
+   
+   #frame_companygroup li {margin-left: 40px;margin-right: 40px;width: 260px;}
+   /*page GOVERNANCE
+   ============================================================================*/
+   .content_img .img,.content .img img, #board_commissioners .img, #board_director .img,.content_img .right,
+   #board_commissioners .right {float: none !important;width: 100%;}
+   /*page investor relation
+   ============================================================================*/
+   #frame_report .report_large {width: 290px;}
+   #frame_report .report_large .text_report {margin-top: 10px;}
+   /*page news
+   ============================================================================*/
+   #list_event {overflow: hidden;}
+   #list_event ul {width: 107%;}
+   #list_event ul li {width: 332px;}
+   #event_gallery .event_img,#event_gallery .event_description {float: none;width: 100%;}
+   #event_gallery .event_img img {width: 100%;}
+   #event_gallery .event_description h3 {height: 40px;}
+   #head_news .ln_img {width: 217px;}
+   #frame_list_news ul li {margin-left: 0;width: 46%;}
+   #list_news .description {width: 170px;}
+   #head_news .left {width: 55%;}
+   #news_detail .detail_img {height: 243px;width: 243px;}
+   #news_detail .left {width: 350px;}
+   #news_detail .right {width: 350px;}
+   /*page project
+   ============================================================================*/
+   #frame_list_project ul {margin-left: -10px;width: 720px;}
+   #frame_list_project li {width: 47%;}
+   #gallery_project_detail ul {margin-left: -10px;width: 720px;}
+   #gallery_project_detail ul li {width: 156px;}
+   /*page human capital
+   ============================================================================*/
+   #career_thumb {overflow: hidden;}
+   #career_thumb ul {margin-left: -15px;width: 750px;}
+   #career_thumb ul li {float: left;}
+   .small_career .image_car,.small_career .descrip_career {float: none;width: 100%;}
+   .small_career .image_car img,.large_career .descrip_career {width: 100%;}
+   .large_career .image_car {width: 400px;}
+   /*page contact us
+   ============================================================================*/
+   #head_office .address {width: 185px;}
+   #head_office .phone {margin-left: 0px;margin-right: 0px;width: 160px;}
+   #head_office .mail {}
+   /*footer
+   ============================================================================*/
+   .bg_younggrey .content {width: 680px;}
+   #footer .bg_younggrey .sec_right,.menu_footer {width: auto;}
+   #footer .bg_younggrey .sec_right a {width: 20%;}
+   #footer .box_link {margin-right: 20px;min-height: 254px;width: 140px;}
+}
+/*end for 768px*/
+@media (max-width: 767px) {
+   .content {margin-left: 40px;margin-right: 40px;width: auto;}
+   /* Header
+   ============================================================================*/
+   #header .content {margin-left: auto;margin-right: auto;}
+   #header .logo {margin-left: 40px;}
+   #header .nav_search {margin-right: 40px;width: 290px;}
+   #header .nav_search .box_nav {margin-left: 0px;}
+   #header .nav_search .box_search input[type=text] {width: 150px;}
+   .navbar .btn-navbar {margin-right: 30px;}
+   /*Banner
+   ============================================================================*/
+   .banner_page {}
+   .banner_page >div {height: 220px;overflow: hidden;}
+   .banner_page >div img {-moz-transform: scale(2);-webkit-transform: scale(2);transform: scale(2);}
+   /* Breadcrumbs
+   ============================================================================*/
+   .sub_head, .box_red, .sub_head .content {min-height: 90px;height: auto;overflow: hidden;}
+   .box_red {height: 100%;}
+   .sub_head .content {margin-right: 0;}
+   .sub_head .sub_nav ul li {margin-right: 15px;}
+   ul.tabs {margin-left: -10px;width: 106%;}
+   /* Home
+   ============================================================================*/
+   .wrap_circle_top .content {margin-left: 0;margin-right: 0px;}
+   .wrap_circle_top.active {background: url(../images/material/bg_top_small.jpg) no-repeat center 20px;height: 340px;margin-bottom: 30px;padding-left: 0px;padding-right: 0px;width: 90%;
+      -moz-border-radius-bottomleft: 10px;-moz-border-radius-bottomright: 10px;-webkit-border-bottom-left-radius: 10px;-webkit-border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+   .wrap_circle_top .thumb_circ {float: left;height: 64px!important;overflow: hidden;position: relative;width: 20%!important;}
+   .wrap_circle_top .thumb_circ .images {
+      border: none;
+      width: 100%!important;
+      border-radius:0px;
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      -ms-border-radius:0px;
+      -o-border-radius:0px;
+   }
+   .wrap_circle_top .thumb_circ.data1{left: 0px;top: 0!important;-moz-border-top-left-radius: 10px;-webkit-border-top-left-radius: 10px;border-top-left-radius: 10px;}
+   .wrap_circle_top .thumb_circ.data2{left: 0px;top: 0!important;}
+   .wrap_circle_top .thumb_circ.data3{left: 0px!important;;top: 0!important;}
+   .wrap_circle_top .thumb_circ.data4{right: 0px;top: 0!important;}
+   .wrap_circle_top .thumb_circ.data5{right: 0px;top: 0!important;-moz-border-top-right-radius: 10px;-webkit-border-top-right-radius: 10px;border-top-right-radius: 10px;}
+   .wrap_circle_top .content_center {top: 80px;width: 350px;}
+   
+   .wrap_circle_bottom {}
+   .wrap_circle_bottom .content {width: 100%;}
+   .wrap_circle_bottom {background: url(../images/material/bg_top_small.jpg) no-repeat center 20px;height: 340px;margin-bottom: 30px;margin-left: auto;margin-right: auto;padding-left: 0px;padding-right: 0px;width: 90%;
+      -moz-border-radius-bottomleft: 10px;-moz-border-radius-bottomright: 10px;-webkit-border-bottom-left-radius: 10px;-webkit-border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+   .wrap_circle_bottom .thumb_circ {float: left;height: 64px!important;overflow: hidden;position: relative;width: 20%!important;}
+   .wrap_circle_bottom .thumb_circ .images {
+      background: url(../images/material/square_thumb.png) no-repeat right;
+      border: none;
+      width: 100%!important;
+      border-radius:0px;
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      -ms-border-radius:0px;
+      -o-border-radius:0px;
+   }
+   .wrap_circle_bottom .thumb_circ:hover .images,
+   .wrap_circle_bottom .thumb_circ.active .images{
+      background:url(../images/material/square_thumb.png) no-repeat left;
+   }
+   .wrap_circle_bottom .thumb_circ.data_1{left: 0px;top: 0!important;-moz-border-top-left-radius: 10px;-webkit-border-top-left-radius: 10px;border-top-left-radius: 10px;}
+   .wrap_circle_bottom .thumb_circ.data_2{left: 0px;top: 0!important;}
+   .wrap_circle_bottom .thumb_circ.data_3{left: 0px;top: 0!important;}
+   .wrap_circle_bottom .thumb_circ.data_4{right: 0px;top: 0!important;}
+   .wrap_circle_bottom .thumb_circ.data_5{right: 0px;top: 0!important;-moz-border-top-right-radius: 10px;-webkit-border-top-right-radius: 10px;border-top-right-radius: 10px;}
+   .wrap_circle_bottom .content_center {top: 80px;width: 350px;}
+   .wrap_circle_bottom .thumb_circ .images {height: 64px;}
+   
+   .anim3d500 {padding-top: 50px;}
+   /* home--news
+   --------------------------------------------*/
+   .bg_img1 .content h1 {font-size: 28px;}
+   .bg_img1 p.big {font-size: 23px;}
+   .bg_grey.news .sec_right hr {width: auto;}
+   .bg_grey.news .sec_right .box_news {box-sizing: border-box;margin-right: 20px;width: 47%;}
+   .bg_grey.news .sec_right .box_news .box_images,.bg_grey.news .sec_right .box_news .desc {float: none;}
+   .bg_grey.news .sec_right .box_news .desc {width: 100%;}
+   /* home--human capital
+   --------------------------------------------*/
+   .bg_white.human .sec_right {height: 790px;margin: auto;width: 470px;}
+   .bg_white.human .imgcchc1 {bottom: 510px;}
+   .bg_white.human .imgcchc2 {right: 0px;top: 0px;}
+   .bg_white.human .imgcchc3 {right: 140px;}
+   .bg_white.human .imgcchc4 {bottom: 240px;right: 100px;}
+   .bg_white.human .sec_right .vacany_date {left: 105px;}
+   /*page about adhi
+   ============================================================================*/
+   .masking_large {float: none;margin: auto;}
+   .block_large_mask #text_quote {float: none;margin: 0 auto;text-align: justify;width: 340px;}
+   .vision .ellips_red, .mission .ellips_red {float: none;margin: auto;}
+   .vision .text_vm, .mission .text_vm {float: none;margin: auto;}
+   #corporate_value .cv01,#corporate_value .cv02,#corporate_value .text_cv {float: none;margin-right: 0;width: 100%;}
+   .masking_medium {float: none;margin: auto;}
+   #frame_award .list_award li {float: none;margin-left: auto;margin-right: auto;width: 100%;}
+   #content_page h1 {line-height: 30px;}
+   .management_sub ul li {margin-bottom: 0px;}
+   /*page investor relations
+   ============================================================================*/
+   .sort_table label,.sort_table select {float: none;}
+   .sort_table .left {float: right;}
+   .sort_table .st_left {float: right;margin-bottom: 10px;text-align: right;width: 100%;}
+   .sort_table input[type="text"] {width: 180px;}
+   .grafik_investor {margin: 0 0 70px 0;width: 100%;}
+   .grafik_investor .left {width: 230px;}
+   .grafik_investor .right {width: 160px;}
+   #frame_report li {margin-left: 0;}
+   #frame_report .annual_finance {padding-left: 0;padding-right: 0;}
+   #frame_report .report_large {float: none;margin-bottom: 40px;margin-left: auto;margin-right: auto;overflow: hidden;}
+   #frame_report .report_large .img {margin-right: 0;width: auto;}
+   .annual_finance .right {display: block;float: none;margin-left: auto;margin-right: auto;width: 290px;}
+   /*page news
+   ============================================================================*/
+   #head_news .left,#head_news .right,#news_detail .left,#news_detail .right {float: none;}
+   #head_news .right {margin: auto;width: 280px;}
+   #frame_list_news ul li {width: 100%;}
+   #list_news .description {width: 250px;}
+   #list_event ul li {display: block;margin-left: auto;margin-right: auto;margin-bottom: 50px;width: 250px;}
+   #news_detail .detail_img {margin-left: auto;margin-right: auto;}
+   #event_gallery .event_description h3 {height: auto;}
+   #list_gallery_detail ul li {margin-right: 5px;width: 120px;}
+   #frame_list_project ul {width: 100%;}
+   #frame_list_project li {display: block;margin-left: auto;margin-right: auto;width: 300px;}
+   /*page project
+   ============================================================================*/
+   #detail_project .left,#detail_project .right {float: none;width: auto;}
+   #gallery_project_detail ul {margin-left: -2px;width: 400px;}
+   #gallery_project_detail ul li {margin-left: 2px;margin-right: 2px;width: 122px;}
+   /*page human capital
+   ============================================================================*/
+   #career_thumb ul {width: 100%;}
+   #career_thumb ul li {display: block;float: none;margin-right: auto;margin-left: auto;width: 270px;}
+   /*page contact us
+   ============================================================================*/
+   #branch_office .acordion_container .block {overflow-x: scroll;}
+   #head_office .clearfix> div {float: none;height: 55px;width: auto;}
+   #contact_form fieldset {width: 100%;}
+   #contact_form input[type="text"], #contact_form textarea {width: 100%;}
+   /*general
+   ============================================================================*/
+   .table_01 {display: none;}
+   .responsive_table {display: table;}
+   .responsive_table .col1 {word-wrap: break-word;}
+   .responsive_table .col2 {}
+   /*footer
+   ============================================================================*/
+   .bg_younggrey  .content {margin-left: 70px;margin-right: 70px;width: auto;}
+   #footer .bg_younggrey .sec_right a {margin-right: 5px;width: 43%;}
+   #footer .box_link {margin-right: 0;width: 50%;}
+}
+/*end 767*/
+@media (max-width: 479px) {
+   .content {margin-left: 10px;margin-right: 10px;width: auto;}
+   .pagination ul li a {padding: 4px 7px;}
+   /*Header
+   ============================================================================*/
+   #header .nav_search {margin-right: 10px;width: 210px;}
+   #header .nav_search .box_search {margin-top: 10px;}
+   #header .nav_search .box_search input[type="text"] {width: 70px;}
+   #header .nav_search .box_nav {margin-top: 20px;}
+   #header .logo {margin-left: 10px;}
+   .navbar .btn-navbar {margin-right: 0px;}
+   /*Banner
+   ============================================================================*/
+   .banner_page {}
+   .banner_page >div {height: 320px;overflow: hidden;}
+   .banner_page >div img {margin-top: 120px;-moz-transform: scale(4);-webkit-transform: scale(4);transform: scale(4);}
+   /*Home
+   ============================================================================*/
+   /*Home--slider
+   ========================================*/
+   #middle .sliderhome,.bx-wrapper {height: 300px;}
+   .bx-wrapper img {max-width: 240%;width: 210%;}
+   .wrap_circle_top .thumb_circ .images {height: 54px!important;}
+   .wrap_circle_top .content_center {width: 250px;}
+   
+   .wrap_circle_bottom .content_center {width: 250px;}
+   .wrap_circle_bottom .content_center h1 {font-size: 18px!important;}
+   .wrap_circle_bottom .content_center h1 img.left {margin-left: 0!important;}
+   .wrap_circle_bottom .content_center h1 img.right {margin-right: 0!important;}
+   
+   .bg_grey.news .news_highlight {height: 270px;margin: auto;width: 270px;}
+   .bg_grey.news .news_highlight .desc {margin-top: 10px;width: 250px;}
+   .bg_grey.news .news_highlight .text {width: 190px;}
+   .bg_grey.news .news_highlight .text p {font-size: 14px;line-height: 17px;}
+   .bg_grey.news .sec_left {width: auto;}
+   .bg_grey.news .sec_right .box_news {margin-right: 0;width: 100%;}
+   /* home--human capital
+   --------------------------------------------*/
+   .bg_white.human .sec_right {height: 880px;width: 320px;}
+   .bg_white.human .imgcchc1 {bottom: 520px;left: 0px;}
+   .bg_white.human .imgcchc2 {top: 40px;}
+   .bg_white.human .imgcchc3 {margin-right: -110px;right: 50%;}
+   .bg_white.human .imgcchc4 {bottom: 234px;margin-right: -144px;right: 50%;}
+   /*page about adhi
+   ============================================================================*/
+   .masking_large .img {margin: auto;}
+   .block_large_mask #text_quote {width: auto;}
+   .vision .text_vm, .mission .text_vm,#corporate_value .cv02 .text_cv,.management_head {width: auto;}
+   .vision .quote_vision {font-size: 24px;line-height: 30px !important;}
+   .management_sub ul li,#frame_companygroup li,.management_sub ul.min5 li {margin-left: auto;margin-right: auto;margin-bottom: 40px;}
+   .board_manage_descrip,.management_sub .board_manage_descrip {width: auto;}
+   #companygroup .top_cg {width: auto;}
+   #frame_award .search_award {float: none;margin: 0 auto 5px auto;overflow: hidden;width: 250px;}
+   #frame_award .search_award input[type="text"] {width: 187px;}
+   #frame_award .select_award {float: none;margin: auto;width: 250px;}
+   /*Page Governance
+   ============================================================================*/
+   #board_director .left {width: auto;}
+   /*Page Investor relations
+   ============================================================================*/
+   .sort_table select {margin-right: 0;}
+   .sort_table .left {float: none;}
+   .sort_table input[type="text"] {margin-bottom: 10px;width: 93%;}
+   .sort_table input[type="submit"] {float: right;}
+   .list_report .title {width: auto;}
+   /*page sustainable
+   ============================================================================*/
+   .report_small {width: auto;}
+   /*page news
+   ============================================================================*/
+   #frame_list_news ul li {display: block;}
+   #list_news .small_img,#list_news .description {float: none;}
+   #list_news .description {width: auto;}
+   #list_event ul {width: auto;}
+   #list_gallery_detail ul li {margin-right: 0px;width: 100%;}
+   #list_gallery_detail ul li img {width: 100%;}
+   #news_detail .title_detail {width: auto;}
+   /*page project
+   ============================================================================*/
+   #frame_list_project ul {margin: 0;}
+   #frame_list_project li {width: auto;}
+   #gallery_project_detail ul {margin-left: 0px;width: auto;}
+   #gallery_project_detail ul li {margin-left: 0px;margin-right: 0px;width: 100%;}
+   #gallery_project_detail ul li img {width: 100%;}
+   /*page human capital
+   ============================================================================*/
+   .large_career .image_car {margin-right: 0px;width: auto;}
+   .large_career .image_car img {width: 100%;}
+   #career_thumb ul {margin-left: 0;}
+   #career_thumb ul li {margin-bottom: 20px;width: 100%;}
+   /*page contact us
+   ============================================================================*/
+   #branch_office .acordion_container .block {overflow-x: scroll;}
+   .table_branch {overflow-x: scroll;}
+   #contact_form input[type="text"], #contact_form textarea {width: 93%;}
+   /*footer
+   ============================================================================*/
+   #footer .content {margin-left: 10px;margin-right: 10px;}
+   #footer .bg_younggrey h5 {font-size: 18px;}
+   #footer .bg_younggrey .sec_right a {margin-left: 0px;margin-right: 0px;width: 100%;}
+   #footer .box_link {min-height: 200px;width: 100%;}
+   #footer .box_link h5 {font-size: 16px;}
+   #footer .box_link a {font-size: 16px;}
+   #footer .bg_darkgrey {height: 90px;}
+}
+/*end 479*/
+@media (min-width: 768px) {
+   .wrap_circle_bottom .thumb_circ {position: absolute;}
+   .wrap_circle_bottom .thumb_circ.data_1{}
+}
+@media only screen and (max-width:1039px){
+   
+}
+@media screen and (min-width: 1025px) {
+   
+}
+@media only screen and (min-width:768px) and (max-width:1039px) {}

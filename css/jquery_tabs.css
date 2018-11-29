@@ -1,0 +1,134 @@
+ul.tabs, 
+ul.tab_co {
+	margin: 0;
+	padding: 0;
+	float: left; 
+	list-style: none;
+	height: 32px;
+	border-bottom: 0px solid #999;
+	border-left: 0px solid #999;
+	width: 100%;
+}
+ul.tabs li,
+ul.tab_co li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 25px;
+	line-height: 25px;
+	border-right: 1px solid #ccc;	
+	margin-bottom: -1px;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+}
+ul.tabs li.last,
+ul.tab_co li.last {
+	border-right:0;
+}
+ul.tabs li a,
+ul.tab_co li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size: 15px;
+	padding: 0 10px;
+	border-right:0px solid #ccc;
+	outline: none;
+}
+ul.tabs li a:hover,
+ul.tab_co li a:hover {
+	/*background: #ccc;*/
+}	
+ul.tabs li.active, ul.tabs li.active a:hover,
+ul.tab_co li.active, ul.tab_co li.active a:hover  {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+ul.tabs li.active a,
+ul.tab_co li.active a {
+	color: #909090;
+}
+.tab_container,
+.tab_container_contact {
+	border: 0px solid #999;
+	border-top: none;
+	clear: both;
+	float: left; 
+	width: 100%;
+	background: #fff;
+	-moz-border-radius-bottomright: 5px;
+	-khtml-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-khtml-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+.tab_content,
+.tab_contact {
+	padding: 35px 0;
+	font-size: 15px;
+}
+
+
+
+
+
+
+/* tabs 2 
+=====================================*/
+ul.tabs2 {
+	margin: 0;
+	padding: 10px 10px;	
+	list-style: none;	
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;		
+}
+ul.tabs2 li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 37px;
+	margin-right: 2px;
+	line-height: 37px;		
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+}
+ul.tabs2 li.last {
+	border-right:0;
+}
+ul.tabs2 li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size: 15px;
+	padding: 0 20px;
+	border-right:0px solid #ccc;
+	outline: none;
+}
+ul.tabs2 li a:hover {
+	background: #fe0000;
+	color: #fff;
+}	
+ul.tabs2 li.active, ul.tabs2 li.active a:hover  {
+	background: #fe0000;	
+}
+ul.tabs2 li.active a {
+	color: #fff;
+}
+.tab_container2 {
+	border: 0px solid #999;
+	border-top: none;	
+	background: #fff;
+	-moz-border-radius-bottomright: 5px;
+	-khtml-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-khtml-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+.tab_content2 {
+	padding: 35px 0;
+	font-size: 15px;
+}
